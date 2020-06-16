@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.New_Account_External_Id__c</members>
+        <members>Lead.Student rule</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Student__c.Student_Id__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>Student_label</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>Student__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Student__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Student_Flow</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Region</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Student__c-Student Account Layout</members>
+        <members>Student__c-Student Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Student__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Sales User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Student__c.Student_Account</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Student__c.Marks</members>
+        <name>ValidationRule</name>
     </types>
     <version>48.0</version>
 </Package>
