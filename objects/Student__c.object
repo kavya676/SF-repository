@@ -154,6 +154,18 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Region</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Student_Id__c</fullName>
         <externalId>false</externalId>
         <label>Student Id</label>
@@ -175,7 +187,41 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Students</pluralLabel>
-    <searchLayouts/>
+    <recordTypes>
+        <fullName>Student_Account</fullName>
+        <active>true</active>
+        <label>Student Account</label>
+        <picklistValues>
+            <picklist>Region__c</picklist>
+            <values>
+                <fullName>APAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LATAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Marks</fullName>
+        <active>true</active>
+        <errorConditionFormula>Student_Id__c  &gt; 5</errorConditionFormula>
+        <errorMessage>id must be correct</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
