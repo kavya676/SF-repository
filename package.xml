@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Student__c.Student_Passed</members>
-        <name>ApprovalProcess</name>
-    </types>
-    <types>
         <members>Lead.Student rule</members>
         <name>AssignmentRule</name>
     </types>
     <types>
-        <members>Student__c.Region__c</members>
         <members>Student__c.Student_Id__c</members>
         <name>CustomField</name>
     </types>
@@ -30,9 +25,17 @@
         <name>Flow</name>
     </types>
     <types>
+        <members>Region</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
         <members>Student__c-Student Account Layout</members>
         <members>Student__c-Student Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Student__c.All</members>
+        <name>ListView</name>
     </types>
     <types>
         <members>Sales User</members>
