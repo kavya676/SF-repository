@@ -13,10 +13,6 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>/AiRiEpYBhInDZqPsnFXulKHYHrDojz</members>
-        <name>Dashboard</name>
-    </types>
-    <types>
         <members>Student_Set</members>
         <name>GlobalValueSet</name>
     </types>
@@ -31,10 +27,6 @@
     <types>
         <members>Student__c.Student_Degree</members>
         <name>QuickAction</name>
-    </types>
-    <types>
-        <members>/New_Accounts_Report_eFT</members>
-        <name>Report</name>
     </types>
     <types>
         <members>Principal</members>
