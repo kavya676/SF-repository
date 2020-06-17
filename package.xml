@@ -5,13 +5,16 @@
         <name>ApprovalProcess</name>
     </types>
     <types>
-        <members>/AiRiEpYBhInDZqPsnFXulKHYHrDojz</members>
-        <name>Dashboard</name>
+        <members>Student__c.Student_Marks__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>Student_Flow</members>
-        <members>Student_Process</members>
-        <name>FlowDefinition</name>
+        <members>Student__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>/AiRiEpYBhInDZqPsnFXulKHYHrDojz</members>
+        <name>Dashboard</name>
     </types>
     <types>
         <members>Student_Set</members>
