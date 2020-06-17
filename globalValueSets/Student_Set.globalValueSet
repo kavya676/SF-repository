@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AGE</fullName>
+        <default>false</default>
+        <label>AGE</label>
+    </customValue>
+    <customValue>
+        <fullName>GENDER</fullName>
+        <default>false</default>
+        <label>GENDER</label>
+    </customValue>
+    <customValue>
+        <fullName>CLASS</fullName>
+        <default>false</default>
+        <label>CLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>BRANCH</fullName>
+        <default>false</default>
+        <label>BRANCH</label>
+    </customValue>
+    <masterLabel>Student Set</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
