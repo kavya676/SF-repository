@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Student_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Student Sharing</label>
+        <sharedTo>
+            <role>Principal</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Principal</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
