@@ -121,6 +121,10 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>Hello</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>InspectionServices</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4751,6 +4755,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Student__c.Student_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Student_Marks__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9578,6 +9587,10 @@
         <layout>Student__c-Student Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Student__c-Student Layout</layout>
+        <recordType>Student__c.Student_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Survey_Question__c-Survey Question Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9676,6 +9689,10 @@
     <pageAccesses>
         <apexPage>SelectInspectionPage</apexPage>
         <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>StudentInfo</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SurveyPage</apexPage>
@@ -10553,6 +10570,11 @@
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Student__c.Student_Account</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>

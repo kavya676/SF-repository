@@ -154,18 +154,6 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Region__c</fullName>
-        <externalId>false</externalId>
-        <label>Region</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>Region</valueSetName>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Student_Id__c</fullName>
         <externalId>false</externalId>
         <label>Student Id</label>
@@ -193,6 +181,15 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>Book_Support_Student</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Book Support</label>
+        <queue>Book_Support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <label>Student Name</label>
         <type>Text</type>
@@ -202,31 +199,8 @@
         <fullName>Student_Account</fullName>
         <active>true</active>
         <label>Student Account</label>
-        <picklistValues>
-            <picklist>Region__c</picklist>
-            <values>
-                <fullName>APAC</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Canada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>EMEA</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LATAM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>US</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
     </recordTypes>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>Marks</fullName>

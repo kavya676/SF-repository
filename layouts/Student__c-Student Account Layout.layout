@@ -14,6 +14,10 @@
                 <behavior>Edit</behavior>
                 <field>Student_Id__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Student_Marks__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

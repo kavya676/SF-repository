@@ -12,5 +12,17 @@
         <label><!-- Student Id --></label>
         <name>Student_Id__c</name>
     </fields>
+    <fields>
+        <label><!-- Student Marks --></label>
+        <name>Student_Marks__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Student Account --></label>
+        <name>Student_Account</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- id must be correct --></errorMessage>
+        <name>Marks</name>
+    </validationRules>
 </CustomObjectTranslation>
