@@ -10,7 +10,6 @@
     </types>
     <types>
         <members>Local__c.Local_Master</members>
-        <members>Local__c.Public_Master</members>
         <name>RecordType</name>
     </types>
     <version>48.0</version>
