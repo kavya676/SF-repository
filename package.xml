@@ -4,5 +4,9 @@
         <members>Local__c-Local User Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Local user</members>
+        <name>Profile</name>
+    </types>
     <version>48.0</version>
 </Package>
