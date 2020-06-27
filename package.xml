@@ -9,6 +9,7 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Local__c-Local Layout</members>
         <members>Local__c-Local User Layout</members>
         <name>Layout</name>
     </types>

@@ -7,6 +7,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Local__c-Local Layout</layout>
+        <recordType>Local__c.Local_Master</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Local__c-Local Layout</layout>
+        <recordType>Local__c.Public_Master</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Local__c-Local User Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
