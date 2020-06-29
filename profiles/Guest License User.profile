@@ -4088,6 +4088,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Local__c.Local_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.AccountId</field>
         <readable>true</readable>
@@ -4366,6 +4371,11 @@
         <editable>true</editable>
         <field>Project__c.Project_Manager__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>School__c.Class__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -9527,7 +9537,21 @@
         <layout>Item__c-Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Job_Posting_Site__c-Job Posting Site Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Local__c-Local Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Local__c-Local Layout</layout>
+        <recordType>Local__c.Local_Master</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Local__c-Local Layout</layout>
+        <recordType>Local__c.Public_Master</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Macro-Macro Layout</layout>
@@ -9558,6 +9582,16 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Review__c-Review Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>School__c-School Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>School__c-School Layout</layout>
+        <recordType>School__c.Section</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
@@ -10519,6 +10553,21 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Local__c.Local_Master</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Local__c.Public_Master</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>School__c.Section</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>Student__c.Student_Account</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
@@ -10635,6 +10684,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Item__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Job_Posting_Site__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

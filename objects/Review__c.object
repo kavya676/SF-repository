@@ -146,35 +146,21 @@
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Class__c</fullName>
-        <externalId>false</externalId>
-        <label>Class</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <label>School</label>
+    <label>Review</label>
     <nameField>
-        <label>School Name</label>
-        <type>Text</type>
+        <displayFormat>REV-{0000}</displayFormat>
+        <label>Review Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Schools</pluralLabel>
-    <recordTypes>
-        <fullName>Section</fullName>
-        <active>true</active>
-        <label>Section</label>
-    </recordTypes>
+    <pluralLabel>Reviews</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

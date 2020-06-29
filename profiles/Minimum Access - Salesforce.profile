@@ -4088,6 +4088,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Local__c.Local_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.AccountId</field>
         <readable>false</readable>
@@ -4366,6 +4371,11 @@
         <editable>false</editable>
         <field>Project__c.Project_Manager__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>School__c.Class__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -9431,6 +9441,30 @@
         <layout>Bicycle__c-Bicycle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Job_Posting_Site__c-Job Posting Site Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Local__c-Local Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Local__c-Local Layout</layout>
+        <recordType>Local__c.Local_Master</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Local__c-Local Layout</layout>
+        <recordType>Local__c.Public_Master</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Review__c-Review Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>School__c-School Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>School__c-School Layout</layout>
+        <recordType>School__c.Section</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Student__c-Student Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -10323,6 +10357,21 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Local__c.Local_Master</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Local__c.Public_Master</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>School__c.Section</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>Student__c.Student_Account</recordType>
         <visible>true</visible>
@@ -10440,6 +10489,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Item__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Job_Posting_Site__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

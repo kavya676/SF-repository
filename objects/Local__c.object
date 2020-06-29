@@ -180,7 +180,7 @@
         <active>true</active>
         <label>Public Master</label>
     </recordTypes>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
