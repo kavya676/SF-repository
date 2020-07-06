@@ -9441,6 +9441,9 @@
         <layout>Bicycle__c-Bicycle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>College__c-College Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Job_Posting_Site__c-Job Posting Site Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
