@@ -9618,6 +9618,9 @@
         <layout>Solution-Solution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>State__c-State Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Store__c-Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9659,6 +9662,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Village__c-Village Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>

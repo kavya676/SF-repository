@@ -9468,11 +9468,17 @@
         <recordType>School__c.Section</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>State__c-State Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Student__c-Student Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Student__c-Student Layout</layout>
         <recordType>Student__c.Student_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Village__c-Village Layout</layout>
     </layoutAssignments>
     <pageAccesses>
         <apexPage>SelectInspectionPage</apexPage>
